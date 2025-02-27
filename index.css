@@ -2,3 +2,30 @@
 body{
     font-family: "Nunito";
 }
+
+.accordion {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+
+}
+.accordion-question {
+    padding: 10px;
+    background: #000000;
+    border-radius: 10px;
+    cursor: pointer;
+    color:white;
+    margin: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+.accordion-answer {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: none;
+}
